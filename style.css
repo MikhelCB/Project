@@ -19,18 +19,27 @@ input {
   border-radius: 10px;
 }
 
-button {
-  padding: 11px 15px;
-  border-radius: 10px;
+.container__login {
+  padding: 3.5rem 0;
+}
+
+a {
+  padding: 15px 15px;
+  border-radius: 15px;
   background-color: cornflowerblue;
   color: #fff;
   width: 10.5rem;
   height: 4rem;
   text-transform: uppercase;
   transition: all 300ms ease-out;
+  text-decoration: none;
 }
 
-button:hover {
+a:hover {
   width: 11rem;
   height: 5rem;
+}
+
+h1 {
+  text-align: center;
 }
